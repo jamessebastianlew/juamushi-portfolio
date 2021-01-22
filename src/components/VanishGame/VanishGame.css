@@ -1,0 +1,24 @@
+.vanish-game {
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    overflow: hidden;
+}
+
+.vanish-game > p {
+    position: absolute;
+    font-size: 5vmin;
+    padding: 20px;
+    color: white;
+}
+
+.vanish-game > img {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    transition: 5s;
+    opacity: 0;
+    object-fit: cover;
+}

@@ -1,0 +1,19 @@
+.landing {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.landing > img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.landing > header {
+    position: absolute;
+    color: white;
+    font-size: 8vmin;
+}
